@@ -6,6 +6,13 @@ import './ProjectContainer.css';
 const ProjectContainer = () => {
   const projects = [
     {
+      img: './Conference.png',
+      title:'Conference management system ',
+      description: 'it is a web based conferece management system using HTML,Css, Javascript, php and MySql.',
+      link: 'https://github.com/praveenasiva05/Conference-daymanagement.git',
+      
+    },
+    {
       img: './calculator.png',
       title: 'Simple Calculator',
       description: 'It is a basic web-based calculator built using HTML, CSS and JavaScript. It performs standard arithmetic operations like addition, subtraction, multiplication and division. Designed with a clean user interface and responsive layout for smooth usability.',
@@ -24,13 +31,7 @@ const ProjectContainer = () => {
       link: 'https://www.figma.com/design/NJlxHk33nIrm8z7myOHYAd/first-project?node-id=0-1&t=b3zAA6yFbrMhqj6z-1',
       
     },
-    {
-      img: './Conference.png',
-      title:'Conference management system ',
-      description: 'it is a web based conferece management system using HTML,Css, Javascript, php and MySqi.',
-      link: 'https://github.com/praveenasiva05/Conference-daymanagement.git',
-      
-    },
+    
   ];
 
   return (
