@@ -24,6 +24,13 @@ const ProjectContainer = () => {
       link: 'https://www.figma.com/design/NJlxHk33nIrm8z7myOHYAd/first-project?node-id=0-1&t=b3zAA6yFbrMhqj6z-1',
       
     },
+    {
+      img: './Conference.png',
+      title:'Conference management system ',
+      description: 'it is a web based conferece management system using HTML,Css, Javascript, php and MySqi.',
+      link: 'https://github.com/praveenasiva05/Conference-daymanagement.git',
+      
+    },
   ];
 
   return (
