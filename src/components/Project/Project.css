@@ -1,0 +1,81 @@
+.project-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 5px auto;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.project {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.project:hover {
+  transform: translateY(-5px);
+}
+
+.project__image {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 200px;
+}
+
+.project__info {
+  padding: 16px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.project__info h2 {
+  margin: 0;
+  font-size: 1rem;
+  color: #0a0a0a;
+
+}
+
+.project__info p {
+  margin: 0;
+  font-size: 1rem;
+  color: #555;
+  text-align: justify;
+}
+
+.project__buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.project__buttons button {
+  flex: 1;
+  padding: 5px;
+  border: none;
+  background-color: #283134;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background-color 0.3s ease;
+  max-width: 100px;
+  align-content: center;
+}
+
+.project__buttons button:hover {
+  background-color: #1c2225;
+}

@@ -1,0 +1,73 @@
+/* Contact.css */
+
+.contact__page {
+  padding: 40px 20px;
+  background-color: #353636; /* lighter soft background */
+}
+
+.contact__container {
+  max-width: 400px;
+  margin: 0 auto;
+  background: #ffffff; /* pure white */
+  padding: 30px 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* softer shadow */
+  border-radius: 10px;
+  text-align: center;
+}
+
+.contact__title {
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #0742ae; /* very dark gray, softer than black */
+}
+
+.contact__container p {
+  font-size: 1rem;
+  margin: 8px 0;
+  color: #555555; /* medium gray */
+}
+
+.contact__container p span {
+  font-weight: 600;
+  color: #000000; /* black for emphasis */
+}
+
+.contact__icons {
+  margin: 20px 0 30px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  color: #0a66c2; /* LinkedIn blue, a bit softer */
+}
+
+.contact__icons a:hover {
+  color: #004182; /* darker blue on hover */
+}
+
+/* Form Styles */
+.contact__form {
+  text-align: left;
+}
+
+.contact__form .MuiTextField-root {
+  margin-bottom: 18px;
+}
+
+.contact__form button {
+  display: block;
+  margin: 20px auto 0;
+  padding: 5px 30px;
+  font-size: 1.05rem;
+  font-weight: 400;
+  cursor: pointer;
+  border-radius: 6px;
+  background-color: #0a66c2; /* matching LinkedIn blue */
+  color: #ffffff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.contact__form button:hover {
+  background-color: #004182;
+}

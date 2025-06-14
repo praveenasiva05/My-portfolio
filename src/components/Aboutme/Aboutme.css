@@ -1,0 +1,82 @@
+/* Full page background */
+.aboutme__page {
+  background-color:#e8f0e8;
+  min-height: 90vh;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+
+}
+
+/* Centered white card */
+.aboutme__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  
+}
+
+.aboutme {
+  max-width: 600px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.aboutme h1 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.aboutme h2 {
+  font-size: 20px;
+  margin-top: 25px;
+  color: #0d47a1;
+  border-bottom: 2px solid #00bcd4;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.aboutme p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin: 10px 0 20px 0;
+  text-align: justify;
+}
+
+/* Skills Section */
+.aboutme__skills h3 {
+  margin: 16px 0 6px;
+  color: #444;
+}
+
+.aboutme__slider {
+  margin-bottom: 16px;
+}
+
+/* Custom colors for each skill */
+.aboutme__sliderPython .MuiLinearProgress-bar {
+  background-color: #e53935;
+}
+
+.aboutme__sliderJava .MuiLinearProgress-bar {
+  background-color: #8e24aa;
+}
+
+.aboutme__sliderReact .MuiLinearProgress-bar {
+  background-color: #43a047;
+}
+
+/* Spacer if needed */
+.aboutme__spacer {
+  height: 40px;
+}

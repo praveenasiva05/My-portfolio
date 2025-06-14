@@ -1,0 +1,52 @@
+.Topcontent{
+    color: white;
+    padding: 5px;
+    position: relative;
+}
+.profile__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+.profile__image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.Topcontent__container>p{
+    letter-spacing: 1px;
+    text-align: center;
+    
+}
+.Topcontent__container>h2{
+    letter-spacing: 1px;
+    text-align: center;
+    padding-right: 3px;
+    padding-top: 10px;
+}
+
+.Topcontent__container>h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5px;
+}
+
+
+.Topcontent__projectsButton{
+    background-color:#0077cc;
+    color: white;
+    padding: 15px 20px;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9rem;
+    margin-left: 570px;
+}
+.Topcontent__projectsButton:hover{
+    background-color:#0077cc;
+    color: white;
+    font-weight: 600;
+}
+

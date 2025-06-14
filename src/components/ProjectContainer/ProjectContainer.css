@@ -1,0 +1,36 @@
+.projects-Container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  background-color: #d0e1d4;
+  
+  min-height: 100vh;           /* Allow it to grow with content */
+  width: 100%;
+  padding: 40px 20px;          /* More breathing space */
+  box-sizing: border-box;
+}
+
+.projects-Container > h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.projects-Container > p {
+  font-size: 18px;
+  margin-bottom: 16px;
+  text-align: center;
+  max-width: 800px;
+  color: black;
+}
+
+.projects-Container__projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;     /* Center the projects instead of spacing them to corners */
+  gap: 24px;                   /* Spacing between cards */
+  width: 100%;
+  max-width: 1200px;
+}

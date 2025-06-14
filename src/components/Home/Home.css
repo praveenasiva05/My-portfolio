@@ -1,0 +1,11 @@
+.Home{
+    background: url("https://t3.ftcdn.net/jpg/04/91/48/46/360_F_491484654_emJO3RMbetykchXLN0bolVLISDvnsg0v.jpg" );
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+    
+    
+}
