@@ -8,7 +8,7 @@ const ProjectContainer = () => {
     {
       img: './Conference.png',
       title:'Conference management system ',
-      description: 'it is a web based conferece management system using HTML,Css, Javascript, php and MySql.',
+      description: 'it is a web based conferece management system using HTML,Css, Javascript, php and MySql. It allows users to register for conferences, View and manage conference schedules. The system provides a user-friendly interface for both attendees (Using QR code) and organizers, ensuring smooth event management.',
       link: 'https://github.com/praveenasiva05/Conference-daymanagement.git',
       
     },
@@ -27,7 +27,7 @@ const ProjectContainer = () => {
     {
       img: './UI.png',
       title: 'Online Clothing Store UI',
-      description: 'Designed a modern, responsive UI for an online clothing e-commerce platform using Figma. ',
+      description: 'Designed a modern, responsive UI for an online clothing e-commerce platform using Figma. It ensures a seamless shopping experience with intuitive navigation, product listings and a user-friendly checkout process.',
       link: 'https://www.figma.com/design/NJlxHk33nIrm8z7myOHYAd/first-project?node-id=0-1&t=b3zAA6yFbrMhqj6z-1',
       
     },
