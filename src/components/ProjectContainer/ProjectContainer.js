@@ -8,7 +8,7 @@ const ProjectContainer = () => {
     {
       img: './Conference.png',
       title:'Conference management system ',
-      description: 'it is a web based conferece management system using HTML,Css, Javascript, php and MySql. It allows users to register for conferences, View and manage conference schedules. The system provides a user-friendly interface for both attendees (Using QR code) and organizers, ensuring smooth event management.',
+      description: 'it is a web based conferece management system using HTML,Css, Javascript, php and MySql. It allows users to register for conferences, View and manage conference schedules. The system provides a user-friendly interface for both attendees  and organizers, ensuring smooth event management.',
       link: 'https://github.com/praveenasiva05/Conference-daymanagement.git',
       
     },
